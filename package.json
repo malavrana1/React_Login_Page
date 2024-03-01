@@ -2,6 +2,7 @@
   "name": "react-login-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://malavrana1.github.io/React_Login_Page/",
   "dependencies": {
     "gh-pages": "^6.1.1",
     "react": "^16.8.6",
