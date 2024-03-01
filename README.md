@@ -1,6 +1,6 @@
-# Logster - React Login/Register Page App
+React Login/Register Page App
 
-Logster is a React app designed for user authentication with features such as login, registration, and password reset pages. This serves as the front-end component, with no integrated back-end functionality.
+React app designed for user authentication with features such as login, registration, and password reset pages. This serves as the front-end component, with no integrated back-end functionality.
 
 ## Functionalities
 
