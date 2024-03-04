@@ -11,6 +11,7 @@ import About from './components/pages/About'
 import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import './App.css'
+import Layout from './components/pages/Layout'
 
 export default function App() {
   return (
@@ -21,10 +22,25 @@ export default function App() {
           <Route path="/login" component={LoginPage} />
           <Route path="/register" component={RegisterPage} />
           <Route path="/forget-password" component={ForgetPasswordPage} />
-          <Route path="/" component={HomePage} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/about">
+            <Layout />
+            <About />
+          </Route>
+          <Route path="/portfolio">
+            <Layout>
+              <Portfolio />
+            </Layout>
+          </Route>
+          <Route path="/contact">
+            <Layout>
+              <Contact />
+            </Layout>
+          </Route>
+          <Route path="/">
+            <Layout>
+              <HomePage />
+            </Layout>
+          </Route>
         </Switch>
       </div>
       <Footer />

@@ -6,9 +6,11 @@
     background: black;
     font-size: 0.8rem;
     color: white;
-    position: relative;
-    padding: 1rem;
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    padding: 1rem;
     margin: 0;
     flex-direction: column;
 }
+

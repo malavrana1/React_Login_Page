@@ -23,10 +23,12 @@
 .navbar {
     background-color: #000000;
     padding: 10px 0;
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .nav-list {
@@ -47,7 +49,6 @@
   .contact-link,
   .logout-link {
     text-decoration: none;
-    padding: 18px 30px;
     border-radius: 5px;
     color: white;
   }
